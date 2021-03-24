@@ -1,3 +1,7 @@
 this is testing file.
+<<<<<<< HEAD
 add this commit to repo
 Look for github reference for exra infro
+=======
+add tht commit to repo
+>>>>>>> 6ba5357f14a816c8d286fb0d76a9dab2892b31cb
