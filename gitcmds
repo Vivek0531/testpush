@@ -1,0 +1,29 @@
+git config --global user.name "maindhar"
+git config --global user.email "test@xy.com"
+git config --list
+git add --help
+git init 
+git add
+git reset
+git commit -m "initial commit"
+git status
+git log
+git clone <remote repo>
+git remote add origin https://github.com/manidhar1986/crazycolor.git
+git push -u origin master where origin is name of the remote repo and master is the branch
+git remote -v
+git branch -a
+git branch - List all branches 
+git branch <new branch> - create branch
+git checkout <file or branch>
+git push -u origin featuretesting 
+--->to merge the featuretesting branch with master do the following
+git checkout master 
+git pull origin master
+git branch --merged
+git merge featuretesting
+git push origin master
+git branch --merged
+-----> Now everything is merged and we dont need featuretesting branch and following steps will delete the featuretesting branch
+git branch -d featuretesting [ this will delete branch locally but the featuretesting branch exists on remote repo ]
+git push origin --delete feature
